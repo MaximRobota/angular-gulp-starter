@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+		"target": "es6",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "lib": [ "es6", "dom" ]
+    },
+    "include": [
+        "app/**/*.ts"
+    ],
+    "exclude": [
+        "app/main-aot.ts"
+    ],
+    "angularCompilerOptions": {
+        "genDir": "app-aot"
+    }
+}
